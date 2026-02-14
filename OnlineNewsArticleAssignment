@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beloit Winter Farmers' Market</title>
+  </head>
+  <body>
+    <h1>Winter Crafter & Farmers’ Market</h1>
+      <p><b>Beloit, Wisconsin</b> is now hosting an indoor Winter Crafter and Farmers' Market!</p>
+      <h2>What is there to do?</h2>
+        <p>At the Winter Market, you will be able to enjoy free family activities and food trucks, as well as shop at a wide variety of local shops, netting you fresh produce and handmade goods.</p>
+    <hr/>
+      <blockquote><q>I can't wait for the market to start! It's always so much fun!</q>
+      <footer>-Jane Doe, Beloit resident</footer>
+      </blockquote> 
+    <hr/>
+      <h2>When and where is the market?</h2>
+        <p>The Winter Market will be held every Saturday November through April from <b>9 a.m. to 12 p.m</b> at the Downtown Beloit Association, <b>557 E. Grand Ave., Beloit.</b></p>
+  </body>
+</html>
