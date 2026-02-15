@@ -14,12 +14,22 @@
         <p>
           <a href="https://lj-4137.github.io/jonesada001.github.io/News_Hub_Assignment/OnlineNewsArticleAssignment.html" target="_blank">
           Click Here</a>
-          to view the article on the web!
+          <i>to view the article on the web!</i>
         </p>
         <p>
           <a href="/Documents/Beloit Winter Farmers' Market PDF.pdf" target="_blank">
           Click here</a>
-          to view a PDF version!
+          <i>to view a PDF version!</i>
+        </p>
+    <hr/>
+      <h2>Beloit Daily News</h2>
+        <p>
+          Learn the lastest local news for Beloit, Wisconsin.
+        </p>
+        <p>
+          <a href="https://www.beloitdailynews.com/" target="_blank">
+          Click here </a>
+        <i>to visit!</i>
         </p>
   </body>
 </html>
