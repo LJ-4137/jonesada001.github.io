@@ -1,7 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>Local News Updates</title>
   </head>
+
   <body>
-    <h1>
+    <h1>Local News Updates</h1>
+    <hr/>
+      <h2>Beloit Winter Farmers' Market</h2>
+        <p>
+          Beloit is now hosting an indoors Winter Farmers Market with local shops, food trucks, and more!
+        </p>
+        <p>
+          <a href="https://lj-4137.github.io/jonesada001.github.io/News_Hub_Assignment/OnlineNewsArticleAssignment.html" target="_blank">
+          CLick Here</a>
+          to view the article on the web!
+        </p>
+        <p>
+          <a href="file:///C:/Users/accem/Downloads/Web%20Design/Web_Design_Assignemnts/Beloit%20Winter%20Farmers'%20Market%20PDF.pdf" target="_blank">
+          Click here</a>
+          to view a PDF version!
+        </p>
+</html>
