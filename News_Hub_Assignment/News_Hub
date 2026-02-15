@@ -13,13 +13,11 @@
         </p>
         <p>
           <a href="/News_Hub_Assignment/OnlineNewsArticleAssignment.html" target="_blank">
-          Click Here</a>
-          <i>to view the article on the web!</i>
+          View the article!</a>
         </p>
         <p>
           <a href="/News_Hub_Assignment/Documents/Beloit_Winter_Farmers_Market.pdf" target="_blank">
-          Click here</a>
-          <i>to view a PDF version!</i>
+          View a PDF version!</a>
         </p>
     <hr/>
       <h2>Beloit Daily News</h2>
@@ -28,8 +26,7 @@
         </p>
         <p>
           <a href="https://www.beloitdailynews.com/" target="_blank">
-          Click here</a>
-        <i>to visit!</i>
+          Visit the Beloit Daily News!</a>
         </p>
   </body>
 </html>
