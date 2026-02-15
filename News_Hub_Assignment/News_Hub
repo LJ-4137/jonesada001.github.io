@@ -4,7 +4,6 @@
   <head>
     <title>Local News Updates</title>
   </head>
-
   <body>
     <h1>Local News Updates</h1>
     <hr/>
@@ -18,8 +17,7 @@
           to view the article on the web!
         </p>
         <p>
-          <a href="file:///C:/Users/accem/Downloads/Web%20Design/Web_Design_Assignemnts/Beloit%20Winter%20Farmers'%20Market%20PDF.pdf" target="_blank">
+          <a href="News_Hub_Assignment/Documents/Beloit Winter Farmers' Market PDF.pdf" target="_blank">
           Click here</a>
           to view a PDF version!
         </p>
-</html>
