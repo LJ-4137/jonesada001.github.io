@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <title>Marmot Gallary</title>
+    </head>
+    <body>
+        <h1>Marmots</h1>
+        <img scr="https://www.publicdomainpictures.net/pictures/320000/velka/marmot-standing-15808979984QM.jpg"
+        alt="Marmot standing with paws by mouth"
+        width="1820px" height="1820px"></img>
+        <img scr="https://www.publicdomainpictures.net/pictures/320000/velka/marmot-1580897985VUY.jpg"
+        alt="Marmot standing on dry ground"
+        width="2184px" height="1820px"
+    <br>
+        <img scr="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Gray_marmot_at_Ile-Alatau_National_Park_in_Kazakhstan.jpg/1280px-Gray_marmot_at_Ile-Alatau_National_Park_in_Kazakhstan.jpg?20240630121408"
+        alt="Gray marmot at Ile-Alatau National Park in Kazakhstan"
+        width="2701px" height="1820px"></img>
+        <p><i>IKhalitov</i> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC License</a></p>
+    </body>
+</html>
