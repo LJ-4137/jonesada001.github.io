@@ -27,25 +27,31 @@
             <tbody>
                 <tr>
                     <td rowspan="2">Electronics</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Headphones</td>
+                    <td>53</td>
+                    <td>$35</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Computer Mouse</td>
+                    <td>128</td>
+                    <td>$20</td>
                  <tr>
                     <td rowspan="2">Clothing</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Hoodies</td>
+                    <td>75</td>
+                    <td>$40</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Shoes</td>
+                    <td>113</td>
+                    <td>$85</td>
                 </tr>
             </tbody>
         </table>
+    </br>
+        <ol type="I">
+            <li>If all the hoodies were sold, the seller would make $3,000.</li>
+            <li>Each computer mouse costs $20.</li>
+            <li>There are 369 stocked products in total.</li>
+        </ol>
     </body>
