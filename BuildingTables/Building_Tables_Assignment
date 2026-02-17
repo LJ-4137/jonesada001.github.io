@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Inventory Table</title>
+    </head>
+    <body>
+        <table>
+            <caption>Product Inventory</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Product Name</th>
+                    <th>Stock</th>
+                    <th>Price</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td colspan="2">Electionics</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                 <tr>
+                    <td colspan="2">Clothing</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </body>
