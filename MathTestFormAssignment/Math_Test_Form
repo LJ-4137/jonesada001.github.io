@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Math Test Form</title>
+    </head>
+    <body>
+        <form>
+            <p>Name:</p><br/>
+              <input type="text"
+              placeholder="Example: Jane Doe">
+
+            <fieldset> <!--Quiz start-->
+                <legend>Multiple-Choice</legend>
+                <p>1. </p><br/>
+                    <input type="radio" name="mcq1" value="">
+                    X
+                    <input type="radio" name="mcq1" value="">
+                    X
+                    <input type="radio" name="mcq1" value="">
+                    X
+                    <input type="radio" name="mcq1" value="">
+                    X
+                <p>2. </p><br/>
+                    <input type="radio" name="mcq2" value="">
+                    X
+                    <input type="radio" name="mcq2" value="">
+                    X
+                    <input type="radio" name="mcq2" value="">
+                    X
+                    <input type="radio" name="mcq2" value="">
+                    X
+                <p>3. </p><br/>
+                    <input type="radio" name="mcq3" value="">
+                    X
+                    <input type="radio" name="mcq3" value="">
+                    X
+                    <input type="radio" name="mcq3" value="">
+                    X
+                    <input type="radio" name="mcq3" value="">
+                    X
+
+            </fieldset>
+            <fieldset>
+                <legend>Word Problem</legend>
+                <p>1. </p><br>
+                    <textarea rows="5" col="60">
+                        Write answer here.
+                    </textarea>
+            </fieldset> <!--Quiz end-->
+
+            <p>Click the button below to submit:</p><br/>
+                <input type="submit">
+        </form>
+    </body>
+
+
+</html>
