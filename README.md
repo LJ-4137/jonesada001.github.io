@@ -1,5 +1,1 @@
-<DOCTYPE! html>
-<html lang="en">
-<p>test</p>
-</html>
 
