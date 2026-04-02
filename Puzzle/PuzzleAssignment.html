@@ -8,9 +8,9 @@
                 gap: 3px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas: 
-                    ''
-                    ''
-                    ''
+                    'p1 p2 p3'
+                    'p4 p5 p6'
+                    'p7 p8 p9'
              }
              div.peice-1 {
                 background-image: url(1.jpg);
@@ -50,10 +50,12 @@
              }
              div.imposter {
                 background-image: url(IMPOSTER.jpg);
-                grid-area: p-imposter;
+                display:none;
              }
         </style>
-        <section class="grid-container">
+    </head>
+    <body>
+          <section class="grid-container">
             <div class="peice-1"></div>
             <div class="peice-2"></div>
             <div class="peice-3"></div>
@@ -65,5 +67,5 @@
             <div class="peice-9"></div>
             <div class="imposter"></div>
         </section>
-    </head>
+    </body>
 </html>
