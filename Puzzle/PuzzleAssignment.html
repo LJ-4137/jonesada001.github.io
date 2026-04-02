@@ -8,9 +8,10 @@
                 gap: 3px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas: 
+                    'info1 info2 info3'
                     'p1 p2 p3'
                     'p4 p5 p6'
-                    'p7 p8 p9'
+                    'p7 p8 p9';
              }
              div.peice-1 {
                 background-image: url(1.jpg);
@@ -48,10 +49,19 @@
                 background-image: url(9.jpg);
                 grid-area: p9;
              }
+             div.info {
+                background-color: #f0f0f0;
+                text-align: center;
+                padding: 10px;
+                font-weight: bold;
+             }
         </style>
     </head>
     <body>
         <section class="grid-container">
+            <div class="info">Luca (Ada) Jones</div>
+            <div class="info">Fish Puzzle</div>
+            <div class="info">4/2/16</div>
             <div class="peice-1"></div>
             <div class="peice-2"></div>
             <div class="peice-3"></div>
