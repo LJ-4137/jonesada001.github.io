@@ -1,87 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Fish Puzzle</title>
-        <style>
-             section.grid-container {
-                display: grid;
-                gap: 1px;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: 
-                    'info1 info2 info3'
-                    'p1 p2 p3'
-                    'p4 p5 p6'
-                    'p7 p8 p9';
-             }
-                div.piece-1, div.piece-2, div.piece-3, div.piece-4, div.piece-5, div.piece-6, div.piece-7, div.piece-8, div.piece-9 {
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    width: auto;
-                    height: auto;     
-             }
-             div.piece-1 {
-                background-image: url(1.jpg);
-                grid-area: p1;
-             }
-             div.piece-2 {
-                background-image: url(2.jpg);
-                grid-area: p2;
-             }
-             div.piece-3 {
-                background-image: url(3.jpg);
-                grid-area: p3;
-             }
-             div.piece-4 {
-                background-image: url(4.jpg);
-                grid-area: p4;
-             }
-             div.piece-5 {
-                background-image: url(5.jpg);
-                grid-area: p5;
-             }
-             div.piece-6 {
-                background-image: url(6.jpg);
-                grid-area: p6;
-             }
-             div.piece-7 {
-                background-image: url(7.jpg);
-                grid-area: p7;
-             }
-             div.piece-8 {
-                background-image: url(8.jpg);
-                grid-area: p8;
-             }
-             div.piece-9 {
-                background-image: url(9.jpg);
-                grid-area: p9;
-            }
-            div.imposter {
-                background-image: url(IMPOSTER.jpg);
-                display: none;
-             }
-             div.info {
-                background-color: #f0f0f0;
-                text-align: center;
-                padding: 10px;
-                font-weight: bold;
-             }
-        </style>
-    </head>
-    <body>
-        <section class="grid-container">
-            <div class="info">Luca (Ada) Jones</div>
-            <div class="info">Fish Puzzle</div>
-            <div class="info">4/2/26</div>
-            <div class="piece-1"></div>
-            <div class="piece-2"></div>
-            <div class="piece-3"></div>
-            <div class="piece-4"></div>
-            <div class="piece-5"></div>
-            <div class="piece-6"></div>
-            <div class="piece-7"></div>
-            <div class="piece-8"></div>
-            <div class="piece-9"></div>
-            <div class="imposter"></div>
-        </section>
-    </body>
+<head>
+    <title>Fish Puzzle</title>
+    <style>
+        section.grid-container {
+            display: grid;
+            gap: 1px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+                'info1 info2 info3'
+                'puzzle puzzle puzzle';
+        }
+        div.piece-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            grid-area: puzzle;
+        }
+        div.piece {
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 133px;
+        }
+        div.piece-1 { background-image: url(1.jpg); }
+        div.piece-2 { background-image: url(2.jpg); }
+        div.piece-3 { background-image: url(3.jpg); }
+        div.piece-4 { background-image: url(4.jpg); }
+        div.piece-5 { background-image: url(5.jpg); }
+        div.piece-6 { background-image: url(6.jpg); }
+        div.piece-7 { background-image: url(7.jpg); }
+        div.piece-8 { background-image: url(8.jpg); }
+        div.piece-9 { background-image: url(9.jpg); }
+        div.info {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-container">
+        <div class="info" style="grid-area: info1;">Luca (Ada) Jones</div>
+        <div class="info" style="grid-area: info2;">Fish Puzzle</div>
+        <div class="info" style="grid-area: info3;">4/2/26</div>
+        <div class="piece-container">
+            <div class="piece piece-1"></div>
+            <div class="piece piece-2"></div>
+            <div class="piece piece-3"></div>
+            <div class="piece piece-4"></div>
+            <div class="piece piece-5"></div>
+            <div class="piece piece-6"></div>
+            <div class="piece piece-7"></div>
+            <div class="piece piece-8"></div>
+            <div class="piece piece-9"></div>
+        </div>
+    </section>
+</body>
 </html>
