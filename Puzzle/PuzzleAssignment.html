@@ -9,19 +9,16 @@
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: 
                 'info1 info2 info3'
-                'piece piece piece'
-            
+                'piece piece piece';
         }
+
         div.piece-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            grid-area:  
-                'piece-1  piece-2  piece-3'
-                'piece-4  piece-5  piece-6'
-                'piece-7  piece-8  piece-9';
+            grid-area: piece;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
         }
+
         div.piece {
             background-size: cover;
             background-repeat: no-repeat;
@@ -29,15 +26,17 @@
             padding-top: 100%;
             position: relative;
         }
-        div.piece-1 { background-image: url('image1.jpg'); }
-        div.piece-2 { background-image: url('image2.jpg'); }
-        div.piece-3 { background-image: url('image3.jpg'); }
-        div.piece-4 { background-image: url('image4.jpg'); }
-        div.piece-5 { background-image: url('image5.jpg'); }
-        div.piece-6 { background-image: url('image6.jpg'); }
-        div.piece-7 { background-image: url('image7.jpg'); }
-        div.piece-8 { background-image: url('image8.jpg'); }
-        div.piece-9 { background-image: url('image9.jpg'); }
+
+        /* Placeholder colors instead of missing images */
+        div.piece-1 { background-image: url(1.jpg); }
+        div.piece-2 { background-image: url(2.jpg); }
+        div.piece-3 { background-image: url(3.jpg); }
+        div.piece-4 { background-image: url(4.jpg); }
+        div.piece-5 { background-image: url(5.jpg); }
+        div.piece-6 { background-image: url(6.jpg); }
+        div.piece-7 { background-image: url(7.jpg); }
+        div.piece-8 { background-image: url(8.jpg); }
+        div.piece-9 { background-image: url(9.jpg); }
     </style>
 </head>
 <body>
@@ -46,15 +45,15 @@
         <div class="info" style="grid-area: info2;">Fish Puzzle</div>
         <div class="info" style="grid-area: info3;">4/2/26</div>
         <div class="piece-container">
-            <div class="piece-1"></div>
-            <div class="piece-2"></div>
-            <div class="piece-3"></div>
-            <div class="piece-4"></div>
-            <div class="piece-5"></div>
-            <div class="piece-6"></div>
-            <div class="piece-7"></div>
-            <div class="piece-8"></div>
-            <div class="piece-9"></div>
+            <div class="piece piece-1"></div>
+            <div class="piece piece-2"></div>
+            <div class="piece piece-3"></div>
+            <div class="piece piece-4"></div>
+            <div class="piece piece-5"></div>
+            <div class="piece piece-6"></div>
+            <div class="piece piece-7"></div>
+            <div class="piece piece-8"></div>
+            <div class="piece piece-9"></div>
         </div>
     </section>
 </body>
